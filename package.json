@@ -1,0 +1,20 @@
+{
+  "name": "portal-academico-faculdade",
+  "version": "1.0.0",
+  "main": "portal-aluno/index.js",
+  "scripts": {
+    "start": "npm --prefix portal-aluno run start",
+    "android": "npm --prefix portal-aluno run android",
+    "ios": "npm --prefix portal-aluno run ios",
+    "web": "npm --prefix portal-aluno run web"
+  },
+  "dependencies": {
+    "expo": "~55.0.4",
+    "expo-status-bar": "~55.0.4",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "react-native": "0.83.2",
+    "react-native-web": "^0.21.0"
+  },
+  "private": true
+}
